@@ -1,7 +1,12 @@
 body {
-	width: 80%;
-	max-width: 1024px;
-	margin: 0 auto;
+	/* width: 100%; */
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	background: #edf8e2;
+
+	/* max-width: 1024px; */
+	/* margin: 0 auto; */
 }
 
 .container-padding50 {
@@ -24,7 +29,6 @@ body {
 	color: white;
 	font-size: 16px;
 	font-family: Helvetica, sans-serif;
-
 	border: 1px solid green;
 	border-radius: 5px;
 }
@@ -34,4 +38,26 @@ body {
 	display: block;
 	float: left;
 	margin-right:3%;
+	border-radius:5px;
+	border: 5 px;
 }
+
+.pag {
+	clear: both;
+	content: "";
+	display: table;
+	margin: 0 10px 10px;
+  }
+  .pag a {
+	color: #000000;
+	float: left;
+	padding: 12px 18px;
+	text-decoration: none;
+  }
+  .pag a.active {
+	background-color: #8ebf42;
+	color: #ffffff;
+  }
+  .pag a:hover:not(.active) {
+	background-color: #ccc;
+  }

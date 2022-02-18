@@ -12,6 +12,7 @@ document.querySelector('.js-userinput').addEventListener('keyup', function (e) {
     }
 });
 
+
 function getUserInput() {
 	var inputValue = document.querySelector('.js-userinput').value;
 
@@ -70,4 +71,6 @@ function pushToDOM( response ) {
 		// concatenate a new IMG tag
 		container.innerHTML += "<img src='"+ src +"' class='container-image' />";
 	});
+
+	container.innerHTML+="<div class='pag'><a href='#'>1</a><a href='#'>2</a><a href='#'>3</a><a class='active' href='#'>4</a><a href='#'>5</a><a href='#'>6</a><a href='#'>7</a><a href='#'>8</a></div>"
 }
